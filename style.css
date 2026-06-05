@@ -1,9 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 body{
+    padding: 0 8%;
     color:#cdd9e5;
     font-family: 'Inter', sans-serif;
     background: linear-gradient(135deg, #0d1117 0%, #202a38 100%);}
 
 h1, h2, h3{
     color:#ffffff;
+}
+section {
+    padding: 40px 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header ul a {
+    text-decoration: none;
+    color: #bbd3eb;
+}
+.profile-pic {
+    width: 150px;
+    object-fit: cover;
+}
+
+.social-links img {
+    width: 40px;
+}
+
+.contact-icon {
+    width: 40px;
+}
+#hero {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+section {
+    border-bottom: 1px solid #30363d;
+}
+footer {
+    background-color:#0d1117;
+    
 }
