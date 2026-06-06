@@ -6,60 +6,106 @@
     </head>
     <body>
         <header>
-            <h1>My Portfolio</h1>
+        <a href="#" class="logo-link"><h1 class="logo">SM</h1></a>
             <ul>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About me</a></li>
             </ul>
         </header>
         <main>
             <section id="hero">
-                <img src="shaurya.png" alt="Shaurya Mishra" class="profile-pic">
+                <img src="Images/shaurya.png" alt="Shaurya Mishra" class="profile-pic">
                 <h2>Shaurya Mishra</h2>
                 <h4>Computer Science Student</h4>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/shaurya-mishra-cs">
-                        <img src="LinkedIn-Logo.png" alt="LinkedIn">
+                        <img src="icons/LinkedIn-Logo.png" alt="LinkedIn">
                     </a>
                     <a href="https://github.com/Sh4uryaa">
-                        <img src="Github-Logo.png" alt="GitHub">
+                        <img src="icons/Github-Logo.png" alt="GitHub">
                     </a>
                 </div>
             </section>
+
             <section id="about">
-                <h2>About me</h2>
-                <p>I'm a CS student at SRM AP working towards AI engineering. Currently building my foundations in DSA and web development.</p>
+                <h2>About</h2>
+                <p>I am Shaurya Mishra, a CS student at SRM University AP. I enjoy building things and am currently exploring DSA and web development.</p>
             </section>
+
             <section id="skills">
+                <!-- TODO: Add skill proof links after learning JS -->
                 <h2>Skills</h2>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>Git</li>
-                    <li>Google Analytics</li>
-                </ul>
+                <div class="skills-grid">
+                    <div class="skill-card" id="analytics">
+                        <img src="icons/google-analytics-logo.png" alt="Google Analytics">
+                        <p>Google Analytics</p>
+                    </div>
+                    <div class="skill-card" id="git">
+                        <img src="icons/git-logo.png" alt="Git">
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-card" id="html">
+                        <img src="icons/html-logo.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-card" id="css">
+                        <img src="icons/css-logo.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-card" id="c">
+                        <img src="icons/c-logo.png" alt="C">
+                        <p>C</p>
+                    </div>
+                    <div class="skill-card" id="cpp">
+                        <img src="icons/C++-logo.png" alt="C++">
+                        <p>C++</p>
+                    </div>
+                    <div class="skill-card" id="python">
+                        <img src="icons/python-logo.png" alt="Python">
+                        <p>Python</p>
+                    </div>
+                </div>
             </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li>DSA Visualiser (coming soon)</li>
-                    <li>NextUp (coming soon)</li>
-                </ul>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <a href="mailto:shaurya.mishra_@outlook.com">
-                    <img src="email.png" alt="Email" class="contact-icon">
-                </a>
-            </section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Images/error.png" alt="404">
+            </div>
+            <div class="project-info">
+                <p class="project-name">Project Not Found</p>
+                <p class="project-desc">Currently building something cool. Check back soon.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Images/error.png" alt="404">
+            </div>
+            <div class="project-info">
+                <p class="project-name">Project Not Found</p>
+                <p class="project-desc">Currently building something cool. Check back soon.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p class="contact-text">Feel free to reach out for collaborations or if you want to chat. :)</p>
+    <div class="contact-links">
+        <a href="mailto:shaurya.mishra_@outlook.com" class="contact-item">
+            <img src="icons/email.png" alt="Email" class="contact-icon">
+            <span>shaurya.mishra_@outlook.com</span>
+        </a>
+    </div>
+</section>
         </main>
         <footer>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About me</a></li>
-            </ul>
+            © 2026 Shaurya Mishra. All Rights Reserved.
         </footer>
     </body>
 </html>
