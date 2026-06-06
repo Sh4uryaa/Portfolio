@@ -27,7 +27,9 @@ header ul a {
     color: #bbd3eb;
 }
 .profile-pic {
-    width: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
