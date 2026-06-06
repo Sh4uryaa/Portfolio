@@ -3,13 +3,31 @@ body{
     padding: 0 8%;
     color:#cdd9e5;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #0d1117 0%, #202a38 100%);}
+    background: linear-gradient(135deg, #080d13 0%, #111827 100%);}
 
 h1, h2, h3{
     color:#ffffff;
 }
+h2 {
+    font-size: 2rem;
+}
+.logo-link {
+    text-decoration: none;
+}
+.logo {
+    background-color: #02418a;
+    border-radius: 10%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
 section {
-    padding: 40px 0;
+    padding: 60px 0;
+    border-bottom: 1px solid #30363d;
 }
 header {
     display: flex;
@@ -17,6 +35,7 @@ header {
     align-items: center;
     padding: 20px 0;
 }
+
 header ul {
     list-style: none;
     display: flex;
@@ -27,12 +46,13 @@ header ul a {
     color: #bbd3eb;
 }
 .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.50);
 }
-
 .social-links img {
     width: 40px;
 }
@@ -49,10 +69,128 @@ header ul a {
     justify-content: center;
     gap: 15px;
 }
-section {
-    border-bottom: 1px solid #30363d;
+
+#hero h4 {
+    color: #58a6ff;
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 20px;
+    width: 110px;
+    gap: 10px;
+    background: linear-gradient(135deg, #161b22 0%, #1f2937 100%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.skill-card p {
+    font-size: 0.85rem;
+    color: #cdd9e5;
+    text-align: center;
+}
+#analytics img {
+    width: 90px;
+    height: 70px
+} 
+.skill-card:nth-child(1) { background: linear-gradient(135deg, #1d180c 0%, #4a3915 100%); border-left: 3px solid #F9AB00; box-shadow: 0 0 10px rgba(249, 171, 0, 0.5); }
+.skill-card:nth-child(2) { background: linear-gradient(135deg, #1a0b0b 0%, #56291a 100%); border-left: 3px solid #F05032; box-shadow: 0 0 10px rgba(240, 80, 50, 0.5); }
+.skill-card:nth-child(3) { background: linear-gradient(135deg, #1b0a0a 0%, #61220f 100%); border-left: 3px solid #dc4a22; box-shadow: 0 0 10px rgba(220, 74, 34, 0.5); }
+.skill-card:nth-child(4) { background: linear-gradient(135deg, #080c16 0%, #1e314d 100%); border-left: 3px solid #1572B6; box-shadow: 0 0 10px rgba(21, 114, 182, 0.5); }
+.skill-card:nth-child(5) { background: linear-gradient(135deg, #0e111b 0%, #121b5c 100%); border-left: 3px solid #6495ED; box-shadow: 0 0 10px rgba(100, 149, 237, 0.5); }
+.skill-card:nth-child(6) { background: linear-gradient(135deg, #100d1f 0%, #260859 100%); border-left: 3px solid #2811d4; box-shadow: 0 0 10px rgba(40, 17, 212, 0.5); }
+.skill-card:nth-child(7) { background: linear-gradient(135deg, #0d101b 0%, #003155 100%); border-left: 3px solid #3776AB; box-shadow: 0 0 10px rgba(55, 118, 171, 0.5); }
+.projects-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project-card {
+    flex: 1;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #161b22 0%, #1f2937 100%);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+.project-image {
+    background: linear-gradient(135deg, #161b22 0%, #1f2937 100%);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #58a6ff;
+    height: 280px;
+}
+
+
+.project-info {
+    padding: 20px;
+}
+
+.project-name {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.project-desc {
+    color: #8b949e;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.project-image img {
+    height: 375px;
+    width: auto;
+    object-fit: contain;
+}
+html {
+    scroll-behavior: smooth;
+}   
+.contact-text {
+    color: #8b949e;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #cdd9e5;
 }
 footer {
-    background-color:#0d1117;
-    
+    background-color: #0d1117;
+    text-align: center;
+    padding: 20px 8%;
+    color: #8b949e;
+    font-size: 0.85rem;
+    margin: 0 -8%;
 }
