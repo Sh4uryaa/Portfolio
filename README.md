@@ -4,4 +4,4 @@ My personal portfolio website showcasing my skills, projects, and contact inform
 
 Building with HTML, CSS, and JavaScript.
 
-🔗 Live site: (coming soon)
+🔗 Live site: https://sh4uryaa.github.io/portfolio/
