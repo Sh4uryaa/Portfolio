@@ -109,13 +109,18 @@ header ul a {
     width: 90px;
     height: 70px
 } 
+#agentblazer img {
+    width: 90px;
+    height: 75px;
+}
 .skill-card:nth-child(1) { background: linear-gradient(135deg, #1d180c 0%, #4a3915 100%); border-left: 3px solid #F9AB00; box-shadow: 0 0 10px rgba(249, 171, 0, 0.5); }
-.skill-card:nth-child(2) { background: linear-gradient(135deg, #1a0b0b 0%, #56291a 100%); border-left: 3px solid #F05032; box-shadow: 0 0 10px rgba(240, 80, 50, 0.5); }
-.skill-card:nth-child(3) { background: linear-gradient(135deg, #1b0a0a 0%, #61220f 100%); border-left: 3px solid #dc4a22; box-shadow: 0 0 10px rgba(220, 74, 34, 0.5); }
-.skill-card:nth-child(4) { background: linear-gradient(135deg, #080c16 0%, #1e314d 100%); border-left: 3px solid #1572B6; box-shadow: 0 0 10px rgba(21, 114, 182, 0.5); }
-.skill-card:nth-child(5) { background: linear-gradient(135deg, #0e111b 0%, #121b5c 100%); border-left: 3px solid #6495ED; box-shadow: 0 0 10px rgba(100, 149, 237, 0.5); }
-.skill-card:nth-child(6) { background: linear-gradient(135deg, #100d1f 0%, #260859 100%); border-left: 3px solid #2811d4; box-shadow: 0 0 10px rgba(40, 17, 212, 0.5); }
-.skill-card:nth-child(7) { background: linear-gradient(135deg, #0d101b 0%, #003155 100%); border-left: 3px solid #3776AB; box-shadow: 0 0 10px rgba(55, 118, 171, 0.5); }
+.skill-card:nth-child(2) { background: linear-gradient(135deg, #0c0931 0%, #0d5e7e 100%); border-left: 3px solid #3a44f6; box-shadow: 0 0 10px rgba(4, 34, 235, 0.5); }
+.skill-card:nth-child(3) { background: linear-gradient(135deg, #1a0b0b 0%, #56291a 100%); border-left: 3px solid #F05032; box-shadow: 0 0 10px rgba(240, 80, 50, 0.5); }
+.skill-card:nth-child(4) { background: linear-gradient(135deg, #1b0a0a 0%, #61220f 100%); border-left: 3px solid #dc4a22; box-shadow: 0 0 10px rgba(220, 74, 34, 0.5); }
+.skill-card:nth-child(5) { background: linear-gradient(135deg, #080c16 0%, #1e314d 100%); border-left: 3px solid #1572B6; box-shadow: 0 0 10px rgba(21, 114, 182, 0.5); }
+.skill-card:nth-child(6) { background: linear-gradient(135deg, #0e111b 0%, #121b5c 100%); border-left: 3px solid #6495ED; box-shadow: 0 0 10px rgba(100, 149, 237, 0.5); }
+.skill-card:nth-child(7) { background: linear-gradient(135deg, #100d1f 0%, #260859 100%); border-left: 3px solid #2811d4; box-shadow: 0 0 10px rgba(40, 17, 212, 0.5); }
+.skill-card:nth-child(8) { background: linear-gradient(135deg, #0d101b 0%, #003155 100%); border-left: 3px solid #3776AB; box-shadow: 0 0 10px rgba(55, 118, 171, 0.5); }
 .projects-grid {
     display: flex;
     flex-direction: row;
