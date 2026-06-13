@@ -196,7 +196,7 @@ footer {
     text-align: center;
     padding: 20px 8%;
     color: #8b949e;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     margin: 0 -8%;
 }
 
@@ -204,5 +204,49 @@ footer {
     .projects-grid {
         flex-direction: column;
     }
-
 }
+@media (max-width: 700px) {
+    .profile-pic{
+        width: 30vw;
+        height: 30vw;
+}
+}
+
+@media (max-width: 475px) {
+    .project-image {
+        height: 200px;
+    }
+    .project-image img {
+        height: 180px;
+    }
+    header ul a {
+        font-size: 12px;
+    }
+    header ul {
+        gap: 10px;
+    }
+    .skills-grid {
+        justify-content: center;
+    }
+    .skill-card {
+    width: 90px;
+}
+    .skill-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+    #analytics img {
+        width: 60px;
+        height: 40px;
+    }
+    #agentblazer img {
+    width: 60px;
+    height: 50px;
+}
+.contact-links {
+    align-items: center;
+    padding: 10px;
+}
+}
+
